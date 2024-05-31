@@ -8,21 +8,21 @@ import { Logo } from "@/components/Logo"
 
 const links = [
   {
-    title: "Overview",
+    title: "Acceuil",
     url: "#overview",
   },
   {
-    title: "Features",
+    title: "Nos services",
     url: "#features",
   },
   {
-    title: "F.A.Q.",
+    title: "Qui sommes-nous",
     url: "#faq",
   },
-  {
-    title: "Pricing",
-    url: "#pricing",
-  },
+  // {
+  //   title: "Pricing",
+  //   url: "#pricing",
+  // },
 ]
 
 function Navigation() {
@@ -36,7 +36,7 @@ function Navigation() {
       <a
         href="#"
         className="inline-block rounded-full bg-white/10 px-4 py-2 text-sm backdrop-blur transition duration-300 hover:bg-white/15">
-        Get started
+        Contact
       </a>
     </div>
   )

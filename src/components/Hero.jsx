@@ -12,11 +12,12 @@ export function Hero() {
       <SectionWrapper className="py-8 lg:py-16">
         <div className="flex flex-col items-center justify-center">
           <h1 className="group text-center font-display text-3xl font-light leading-tight lg:text-5xl">
-            <span>Yet another ChatGPT</span>
+            <span>Chez HNM, nous pensons</span>
             <br />
-            <span>wrapper </span>
+            <span>que réinventer le monde </span>
             <span className="bg-gradient-to-br from-white/90 to-white/30 bg-clip-text text-transparent">
-              built different
+              de la nuit représente notre plus grande opportunité d améliorer et de faciliter le quotidient de la
+              population
             </span>
           </h1>
 

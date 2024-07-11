@@ -11,37 +11,37 @@ export function Hero() {
 
       <SectionWrapper className="py-8 lg:py-16">
         <div className="flex flex-col items-center justify-center">
-          <h1 className="group text-center font-display text-3xl font-light leading-tight lg:text-5xl">
+          <h1 className="text-3xl font-light leading-tight text-center group font-display lg:text-5xl">
             <span>Chez HNM, nous pensons</span>
             <br />
             <span>que réinventer le monde </span>
-            <span className="bg-gradient-to-br from-white/90 to-white/30 bg-clip-text text-transparent">
+            <span className="text-transparent bg-gradient-to-br from-white/90 to-white/30 bg-clip-text">
               de la nuit représente notre plus grande opportunité d améliorer et de faciliter le quotidient de la
               population
             </span>
           </h1>
 
-          <h2 className="mt-8 max-w-xl text-center text-lg text-white/60 lg:text-xl">
+          <h2 className="max-w-xl mt-8 text-lg text-center text-white/60 lg:text-xl">
             Recharger is not like all those chat-with-pdf apps. It certainly has a slightly different UI, so it worths
             your money.
           </h2>
 
-          <div className="mt-8 flex flex-col items-center justify-center gap-4 lg:flex-row">
+          <div className="flex flex-col items-center justify-center gap-4 mt-8 lg:flex-row">
             <a
               href="#"
               className="inline-block rounded-full bg-white px-4 py-1.5 text-sm font-medium text-zinc-950 transition duration-300 hover:bg-zinc-300">
-              Get started for free
+              
             </a>
 
             <span className="text-sm">No credit card required</span>
           </div>
 
-          <div className="relative mx-auto mt-8 w-full max-w-5xl lg:mt-16">
+          <div className="relative w-full max-w-5xl mx-auto mt-8 lg:mt-16">
             <div className="absolute -top-8 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-white/25 blur-3xl lg:-top-8 lg:h-[32rem] lg:w-[32rem] lg:blur-[128px]"></div>
 
-            <div className="relative w-full rounded-2xl bg-gradient-to-b from-white/5 to-white/10 p-2 shadow-2xl shadow-white/10 ring-1 ring-white/10 backdrop-blur-sm lg:rounded-3xl">
+            <div className="relative w-full p-2 shadow-2xl rounded-2xl bg-gradient-to-b from-white/5 to-white/10 shadow-white/10 ring-1 ring-white/10 backdrop-blur-sm lg:rounded-3xl">
               <Image
-                className="h-auto w-full rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
+                className="w-full h-auto border shadow-md rounded-xl border-white/10 shadow-zinc-950/50 lg:rounded-2xl"
                 alt="App screenshot"
                 unoptimized
                 src={appImage}

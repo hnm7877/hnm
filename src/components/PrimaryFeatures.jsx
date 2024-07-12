@@ -8,6 +8,7 @@ import {
   DocumentTextIcon,
   UserIcon,
 } from "@heroicons/react/24/outline"
+import Image from "next/image"
 
 import {
   SectionWrapper,
@@ -47,7 +48,13 @@ function DocumentsFeature({ className }) {
     <FeatureCard className={className}>
       <FeatureCardThumbnail>
         <div className="relative flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5 shadow">
-          <DocumentIcon className="relative h-8 w-8 fill-white/10 stroke-[1] text-white" />
+          <Image
+            width={100}
+            height={100}
+            src="/images/vin.gif"
+            alt="Documents"
+            className="relative h-8 w-8 fill-white/10 stroke-[1] text-white"
+          />
         </div>
 
         <div className="w-[6.5rem] overflow-hidden">
@@ -61,7 +68,15 @@ function DocumentsFeature({ className }) {
         </div>
 
         <div className="relative flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5 shadow">
-          <ChatBubbleLeftRightIcon className="relative h-8 w-8 fill-cyan-400/10 stroke-[1] text-cyan-400" />
+          <div className="relative flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5 shadow">
+            <Image
+              width={100}
+              height={100}
+              src="/images/emaquisLogo2.png"
+              alt="Documents"
+              className="relative h-8 w-8 fill-white/10 stroke-[1] text-white"
+            />
+          </div>
         </div>
       </FeatureCardThumbnail>
 
@@ -183,14 +198,14 @@ export function PrimaryFeatures() {
         {(isActive) => (
           <SectionWrapper>
             <SectionHeading>
-              <SectionBadge>Overview {isActive ? "true" : "false"}</SectionBadge>
+              <SectionBadge>Objectif {isActive ? "" : ""}</SectionBadge>
 
               <SectionTitle>
-                Revolutionizing the way
+                Révolutionnons la gestion des espaces
                 <SectionTitleFade>
-                  you
+                  (maquis, bar, lounge...)
                   <br />
-                  understand documents
+                  rendons inaccessible
                 </SectionTitleFade>
               </SectionTitle>
 
@@ -204,19 +219,19 @@ export function PrimaryFeatures() {
             <div className="mt-8 grid gap-4 md:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-8">
               <DocumentsFeature
                 className={clsx(
-                  " transition-all delay-150 duration-[--duration]",
+                  "transition-all delay-150 duration-[--duration]",
                   !isActive ? "translate-y-8 opacity-0" : "",
                 )}
               />
               <ResponsesFeature
                 className={clsx(
-                  " transition-all delay-300 duration-[--duration]",
+                  "transition-all delay-300 duration-[--duration]",
                   !isActive ? "translate-y-8 opacity-0" : "",
                 )}
               />
               <ReferencesFeature
                 className={clsx(
-                  " transition-all delay-[450ms] duration-[--duration]",
+                  "transition-all delay-[450ms] duration-[--duration]",
                   !isActive ? "translate-y-8 opacity-0" : "",
                 )}
               />

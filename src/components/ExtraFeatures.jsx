@@ -14,20 +14,23 @@ import {
 
 import { SectionWrapper, SectionBadge, SectionHeadingHighlighted, SectionTitleSmall } from "./Section"
 import { ScrollReveal } from "./ScrollReveal"
+import Image from "next/image"
 
 export function ExtraFeatures() {
   const features = [
     {
-      title: "Document decoder",
+      title: "E-MAQUIS",
       description: "Transform complex content into understandable format",
+      image: "/images/emaquis.png",
       icon: CommandLineIcon,
     },
     {
-      title: "Intelligent summarization",
+      title: "E-MAQUIS JOB",
       description: "Rapidly encapsulate main ideas and key points",
+      image: "/images/emaquisjob.png",
       icon: ArrowsPointingInIcon,
     },
-    {
+    /*  {
       title: "Real-time chat",
       description: "Interact directly and personally with your document",
       icon: ChatBubbleBottomCenterTextIcon,
@@ -56,7 +59,7 @@ export function ExtraFeatures() {
       title: "Detailed analysys",
       description: "Dive deep into documents for comprehensive insights.",
       icon: ArrowTrendingUpIcon,
-    },
+    }, */
   ]
 
   return (
@@ -65,11 +68,11 @@ export function ExtraFeatures() {
         {(isActive) => (
           <SectionWrapper>
             <SectionHeadingHighlighted>
-              <SectionBadge>Features</SectionBadge>
+              <SectionBadge>Nos services</SectionBadge>
 
-              <SectionTitleSmall>
+              {/* <SectionTitleSmall>
                 Dive into AI-powered features. Chat, learn, and get the most out of your documents in no time
-              </SectionTitleSmall>
+              </SectionTitleSmall> */}
             </SectionHeadingHighlighted>
 
             <div className="mt-8 lg:mt-16">
@@ -82,12 +85,15 @@ export function ExtraFeatures() {
                       "transition-all delay-[--delay] duration-[--duration]",
                       !isActive ? "translate-y-8 opacity-0" : "",
                     )}>
-                    <div className="flex items-center">
+                    <div className="flex flex-col items-center justify-center gap-4">
                       <div className="rounded border border-white/5 bg-white/5 p-1">
-                        <feature.icon className="h-5 w-5 fill-white/10 text-white" />
+                        {/* <feature.icon className="h-5 w-5 fill-white/10 text-white" /> */}
                       </div>
 
                       <div className="ml-4 text-lg">{feature.title}</div>
+                      <div className="">
+                        {feature.image && <Image alt={feature.title} src={feature.image} width="100" height="100" />}
+                      </div>
                     </div>
 
                     <div className="ml-11 mt-2 pl-0.5 text-sm font-light leading-relaxed text-white/75">

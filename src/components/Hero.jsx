@@ -2,7 +2,7 @@ import Image from "next/image"
 
 import { SectionWrapper } from "@/components/Section"
 
-import appImage from "@/images/app.png"
+import appImage from "../../public/images/app.png"
 
 export function Hero() {
   return (
@@ -21,10 +21,7 @@ export function Hero() {
             </span>
           </h1>
 
-          <h2 className="mt-8 max-w-xl text-center text-lg text-white/60 lg:text-xl">
-            Recharger is not like all those chat-with-pdf apps. It certainly has a slightly different UI, so it worths
-            your money.
-          </h2>
+          <h2 className="mt-8 max-w-xl text-center text-lg text-white/60 lg:text-xl"></h2>
 
           <div className="mt-8 flex flex-col items-center justify-center gap-4 lg:flex-row">
             <a

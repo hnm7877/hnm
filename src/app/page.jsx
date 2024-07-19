@@ -19,11 +19,11 @@ export default function Home() {
       <Header />
       <Hero />
       <PrimaryFeatures />
-      <SecondaryFeatures />
+      {/* <SecondaryFeatures /> */}
       <ExtraFeatures />
-      <Testimonials />
-      <Faq />
-      <Pricing />
+      {/* <Testimonials /> */}
+      {/* <Faq /> */}
+      {/* <Pricing /> */}
       <Footer />
     </>
   )

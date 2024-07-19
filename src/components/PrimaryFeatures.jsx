@@ -174,10 +174,10 @@ function ReferencesFeature({ className }) {
       </FeatureCardThumbnail>
 
       <FeatureCardBody>
-        <FeatureCardTitle>References included</FeatureCardTitle>
+        <FeatureCardTitle>KPI</FeatureCardTitle>
         <FeatureCardDescription>
-          Every answer you receive comes directly from your uploaded documents – we always include the source for full
-          transparency.
+          Suivez l{"'"}évolution des ventes, produits et performances de vos employés pour tout savoir de votre
+          entreprise.
         </FeatureCardDescription>
       </FeatureCardBody>
     </FeatureCard>

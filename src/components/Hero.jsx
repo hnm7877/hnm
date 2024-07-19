@@ -1,8 +1,9 @@
-import Image from "next/image"
+/* import Image from "next/image" */
 
 import { SectionWrapper } from "@/components/Section"
 
-import appImage from "../../public/images/app.png"
+/* import appImage from "../../public/images/app.png" */
+import { MacbookScrollDemo } from "../components/macbookDemo.tsx"
 
 export function Hero() {
   return (
@@ -35,12 +36,7 @@ export function Hero() {
             <div className="absolute -top-8 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-white/25 blur-3xl lg:-top-8 lg:h-[32rem] lg:w-[32rem] lg:blur-[128px]"></div>
 
             <div className="relative w-full rounded-2xl bg-gradient-to-b from-white/5 to-white/10 p-2 shadow-2xl shadow-white/10 ring-1 ring-white/10 backdrop-blur-sm lg:rounded-3xl">
-              <Image
-                className="h-auto w-full rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
-                alt="App screenshot"
-                unoptimized
-                src={appImage}
-              />
+              <MacbookScrollDemo />
             </div>
           </div>
         </div>

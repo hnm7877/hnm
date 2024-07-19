@@ -20,13 +20,15 @@ export function ExtraFeatures() {
   const features = [
     {
       title: "E-MAQUIS",
-      description: "Transform complex content into understandable format",
+      description:
+        "E-maquis est une application SaaS qui structure et facilite la gestion des établissements (Maquis, Bars,...) ",
       image: "/images/emaquis.png",
       icon: CommandLineIcon,
     },
     {
       title: "E-MAQUIS JOB",
-      description: "Rapidly encapsulate main ideas and key points",
+      description:
+        "E-Maquis-Job est une application Saas qui facilite la mise en relation entre un employeur et un candidat",
       image: "/images/emaquisjob.png",
       icon: ArrowsPointingInIcon,
     },
@@ -75,7 +77,7 @@ export function ExtraFeatures() {
               </SectionTitleSmall> */}
             </SectionHeadingHighlighted>
 
-            <div className="mt-8 lg:mt-16">
+            <div className="mt-8  lg:mt-16">
               <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4 lg:gap-y-16">
                 {features.map((feature, index) => (
                   <div
@@ -84,6 +86,7 @@ export function ExtraFeatures() {
                     className={clsx(
                       "transition-all delay-[--delay] duration-[--duration]",
                       !isActive ? "translate-y-8 opacity-0" : "",
+                      "flex flex-col items-center justify-center gap-4",
                     )}>
                     <div className="flex flex-col items-center justify-center gap-4">
                       <div className="rounded border border-white/5 bg-white/5 p-1">

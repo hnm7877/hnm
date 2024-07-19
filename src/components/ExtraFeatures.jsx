@@ -2,17 +2,17 @@
 
 import clsx from "clsx"
 import {
-  ArrowTrendingUpIcon,
-  ArrowUpOnSquareIcon,
+  /* ArrowTrendingUpIcon,
+  ArrowUpOnSquareIcon, */
   ArrowsPointingInIcon,
-  ChartBarIcon,
-  ChatBubbleBottomCenterTextIcon,
+  /*  ChartBarIcon,
+  ChatBubbleBottomCenterTextIcon, */
   CommandLineIcon,
-  DocumentTextIcon,
-  QueueListIcon,
+  /* DocumentTextIcon,
+  QueueListIcon, */
 } from "@heroicons/react/24/outline"
 
-import { SectionWrapper, SectionBadge, SectionHeadingHighlighted, SectionTitleSmall } from "./Section"
+import { SectionWrapper, SectionBadge, SectionHeadingHighlighted } from "./Section"
 import { ScrollReveal } from "./ScrollReveal"
 import Image from "next/image"
 

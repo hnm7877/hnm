@@ -1,11 +1,11 @@
 import { Header } from "@/components/Header"
 import { Hero } from "@/components/Hero"
 import { PrimaryFeatures } from "@/components/PrimaryFeatures"
-import { SecondaryFeatures } from "@/components/SecondaryFeatures"
+/* import { SecondaryFeatures } from "@/components/SecondaryFeatures" */
 import { ExtraFeatures } from "@/components/ExtraFeatures"
-import { Testimonials } from "@/components/Testimonials"
-import { Faq } from "@/components/Faq"
-import { Pricing } from "@/components/Pricing"
+/* import { Testimonials } from "@/components/Testimonials" */
+/* import { Faq } from "@/components/Faq"
+import { Pricing } from "@/components/Pricing" */
 import { Footer } from "@/components/Footer"
 
 export const metadata = {

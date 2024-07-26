@@ -2,8 +2,6 @@ import Image from "next/image"
 
 import { SectionWrapper } from "@/components/Section"
 
-import appImage from "@/images/app.png"
-
 export function Hero() {
   return (
     <div className="relative pt-32">
@@ -42,7 +40,9 @@ export function Hero() {
                 className="h-auto w-full rounded-xl border border-white/10 shadow-md shadow-zinc-950/50 lg:rounded-2xl"
                 alt="App screenshot"
                 unoptimized
-                src={appImage}
+                src="/images/app.png"
+                width={1280}
+                height={720}
               />
             </div>
           </div>

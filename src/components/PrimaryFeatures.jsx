@@ -6,7 +6,6 @@ import {
   ClipboardDocumentCheckIcon,
   DocumentIcon,
   DocumentTextIcon,
-  UserIcon,
 } from "@heroicons/react/24/outline"
 import Image from "next/image"
 
@@ -16,7 +15,7 @@ import {
   SectionHeading,
   SectionTitle,
   SectionTitleFade,
-  SectionDescription,
+  /* SectionDescription, */
 } from "./Section"
 import { ScrollReveal } from "./ScrollReveal"
 import { SpotlightCard } from "./SpotlightCard"
@@ -98,7 +97,13 @@ function ResponsesFeature({ className }) {
     <FeatureCard className={className}>
       <FeatureCardThumbnail>
         <div className="relative flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5 shadow">
-          <UserIcon className="relative h-8 w-8 fill-white/10 stroke-[1] text-white" />
+          <Image
+            width={100}
+            height={100}
+            src="/images/icone_employee.png"
+            alt="Documents"
+            className="relative h-8 w-8 fill-white/10 stroke-[1] text-white"
+          />
         </div>
 
         <div className="w-9 overflow-hidden">
@@ -131,7 +136,7 @@ function ResponsesFeature({ className }) {
       </FeatureCardThumbnail>
 
       <FeatureCardBody>
-        <FeatureCardTitle>Real-time responses</FeatureCardTitle>
+        <FeatureCardTitle>Fonctionnement de vente </FeatureCardTitle>
         <FeatureCardDescription>
           Pop the questions, pull out information, or get a quick summary of your documents using our smart AI.
           It&apos;s all instant and tailored for you.
@@ -201,7 +206,7 @@ export function PrimaryFeatures() {
               <SectionBadge>Objectif {isActive ? "" : ""}</SectionBadge>
 
               <SectionTitle>
-                Révolutionnons la gestion des espaces
+                Révolutionnons le monde de la nuit
                 <SectionTitleFade>
                   (maquis, bar, lounge...)
                   <br />
@@ -209,11 +214,11 @@ export function PrimaryFeatures() {
                 </SectionTitleFade>
               </SectionTitle>
 
-              <SectionDescription>
+              {/* <SectionDescription>
                 Recharger lets you have a conversation with your documents.
                 <br className="hidden lg:block" />
                 Just ask and retrieve the information you need, all in a simple chat.
-              </SectionDescription>
+              </SectionDescription> */}
             </SectionHeading>
 
             <div className="mt-8 grid gap-4 md:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-8">

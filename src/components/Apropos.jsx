@@ -14,7 +14,7 @@ import {
 
 import { Details } from "./Details"
 
-export function Faq() {
+export function Apropos() {
   const questions = [
     {
       title: "What is Recharger?",
@@ -41,7 +41,7 @@ export function Faq() {
   return (
     <SectionWrapperRounded id="faq" className="scroll-mt-8">
       <SectionHeading>
-        <SectionBadge>Questions?</SectionBadge>
+        <SectionBadge>Qui sommes-nous?</SectionBadge>
 
         <SectionTitle>
           <span>Not so frequently </span>

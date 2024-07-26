@@ -1,6 +1,6 @@
 /* import Image from "next/image" */
 
-import { SectionWrapper } from "@/components/Section"
+import { SectionWrapper } from "../components/Section"
 
 /* import appImage from "../../public/images/app.png" */
 import { MacbookScrollDemo } from "../components/macbookDemo.tsx"

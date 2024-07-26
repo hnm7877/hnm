@@ -2,7 +2,7 @@ import { SectionWrapper } from "./Section"
 import { Logo } from "./Logo"
 import { YouTubeIcon, XIcon, TikTokIcon } from "./Icons"
 
-const sections = [
+/* const sections = [
   {
     title: "Products",
     items: [
@@ -70,7 +70,7 @@ const sections = [
       },
     ],
   },
-]
+] */
 
 const icons = [
   {
@@ -115,7 +115,7 @@ export function Footer() {
               </div>
             </div>
 
-            <div className="grid w-full grid-cols-2 gap-8 sm:w-2/3 lg:grid-cols-3">
+            {/* <div className="grid w-full grid-cols-2 gap-8 sm:w-2/3 lg:grid-cols-3">
               {sections.map((section, sectionIndex) => (
                 <div key={sectionIndex} className="flex flex-col gap-4">
                   <p className="text-sm text-white">{section.title}</p>
@@ -131,7 +131,7 @@ export function Footer() {
                   </ul>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </SectionWrapper>
       </div>

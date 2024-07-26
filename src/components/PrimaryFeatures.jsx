@@ -9,14 +9,7 @@ import {
 } from "@heroicons/react/24/outline"
 import Image from "next/image"
 
-import {
-  SectionWrapper,
-  SectionBadge,
-  SectionHeading,
-  SectionTitle,
-  SectionTitleFade,
-  /* SectionDescription, */
-} from "./Section"
+import { SectionWrapper, SectionBadge, SectionHeading, SectionTitle, SectionTitleFade } from "./Section"
 import { ScrollReveal } from "./ScrollReveal"
 import { SpotlightCard } from "./SpotlightCard"
 
@@ -80,10 +73,10 @@ function DocumentsFeature({ className }) {
       </FeatureCardThumbnail>
 
       <FeatureCardBody>
-        <FeatureCardTitle>Upload documents</FeatureCardTitle>
+        <FeatureCardTitle>E-Maquis</FeatureCardTitle>
         <FeatureCardDescription>
-          Effortlessly upload the PDFs you want to chat with. Get things started with just a few clicks and your
-          documents are ready for a chat.
+          Le système de gestion ! Prenez des commandes et encaissez en un temps record pour limiter le temps d’attente
+          de vos clients et assurer une satisfaction maximale. E-Maquis est mobile.
         </FeatureCardDescription>
       </FeatureCardBody>
     </FeatureCard>
@@ -136,10 +129,10 @@ function ResponsesFeature({ className }) {
       </FeatureCardThumbnail>
 
       <FeatureCardBody>
-        <FeatureCardTitle>Fonctionnement de vente </FeatureCardTitle>
+        <FeatureCardTitle>Traitez les commandes facilement</FeatureCardTitle>
         <FeatureCardDescription>
-          Pop the questions, pull out information, or get a quick summary of your documents using our smart AI.
-          It&apos;s all instant and tailored for you.
+          Traitez les commandes facilement et rapidement pour vous concentrer sur la création d{"'"}une expérience
+          client exceptionnelle
         </FeatureCardDescription>
       </FeatureCardBody>
     </FeatureCard>
@@ -186,10 +179,10 @@ function ReferencesFeature({ className }) {
       </FeatureCardThumbnail>
 
       <FeatureCardBody>
-        <FeatureCardTitle>References included</FeatureCardTitle>
+        <FeatureCardTitle>KPI</FeatureCardTitle>
         <FeatureCardDescription>
-          Every answer you receive comes directly from your uploaded documents – we always include the source for full
-          transparency.
+          Suivez l{"'"}évolution des ventes, produits et performances de vos employés pour tout savoir de votre
+          entreprise.
         </FeatureCardDescription>
       </FeatureCardBody>
     </FeatureCard>
@@ -206,11 +199,11 @@ export function PrimaryFeatures() {
               <SectionBadge>Objectif {isActive ? "" : ""}</SectionBadge>
 
               <SectionTitle>
-                Révolutionnons le monde de la nuit
+                Révolutionnons les secteurs informel
                 <SectionTitleFade>
                   (maquis, bar, lounge...)
                   <br />
-                  rendons inaccessible
+                  rendons accessible les outils necessaire à la gestion d{"'"}un business
                 </SectionTitleFade>
               </SectionTitle>
 

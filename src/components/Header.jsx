@@ -3,8 +3,8 @@
 import { useState } from "react"
 import { Bars2Icon, XMarkIcon } from "@heroicons/react/24/outline"
 
-import { SectionWrapper } from "@/components/Section"
-import { Logo } from "@/components/Logo"
+import { SectionWrapper } from "../components/Section"
+import { Logo } from "../components/Logo"
 
 const links = [
   {

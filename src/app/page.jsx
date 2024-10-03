@@ -1,11 +1,11 @@
-import { Header } from "../components/components/Header"
-import { Hero } from "../components/components/Hero"
+import { Header } from "../components/Header"
+import { Hero } from "../components/Hero"
 import { PrimaryFeatures } from "../components/PrimaryFeatures"
 /* import { SecondaryFeatures } from "@/components/SecondaryFeatures" */
 import { ExtraFeatures } from "../components/ExtraFeatures"
 /* import { Testimonials } from "@/components/Testimonials" */
-/* import { Faq } from "@/components/Faq"
-import { Pricing } from "@/components/Pricing" */
+import { Apropos } from "../components/Apropos"
+/* import { Pricing } from "@/components/Pricing" */
 import { Footer } from "../components/Footer"
 
 export const metadata = {
@@ -22,7 +22,7 @@ export default function Home() {
       {/* <SecondaryFeatures /> */}
       <ExtraFeatures />
       {/* <Testimonials /> */}
-      {/* <Faq /> */}
+      <Apropos />
       {/* <Pricing /> */}
       <Footer />
     </>

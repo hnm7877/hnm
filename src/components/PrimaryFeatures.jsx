@@ -6,7 +6,6 @@ import {
   ClipboardDocumentCheckIcon,
   DocumentIcon,
   DocumentTextIcon,
-  UserIcon,
 } from "@heroicons/react/24/outline"
 import Image from "next/image"
 
@@ -91,7 +90,13 @@ function ResponsesFeature({ className }) {
     <FeatureCard className={className}>
       <FeatureCardThumbnail>
         <div className="relative flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-white/10 bg-white/5 shadow">
-          <UserIcon className="relative h-8 w-8 fill-white/10 stroke-[1] text-white" />
+          <Image
+            width={100}
+            height={100}
+            src="/images/icone_employee.png"
+            alt="Documents"
+            className="relative h-8 w-8 fill-white/10 stroke-[1] text-white"
+          />
         </div>
 
         <div className="w-9 overflow-hidden">
